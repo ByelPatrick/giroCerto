@@ -6,7 +6,8 @@ font-size: large;
 
 }
 #section1{
-
+margin-top: 2em;
+margin-bottom: 2em;
 display: flex;
 flex-direction: row;
 display: flex;
@@ -29,7 +30,7 @@ text-align: center;
 
 
 }
-p{
+p.empresa{
 
 width: 12em;
 margin: 2em;
