@@ -1,0 +1,32 @@
+.artigo{
+
+display: flex;
+flex-direction:row ;
+justify-content: space-between;
+
+}
+section{
+display: flex;
+flex-direction: row;
+
+}
+.divisao{
+
+    display: flex;
+    flex-direction:column ;
+
+}
+#tudo{
+
+display: flex;
+flex-direction: column;
+
+}
+.perguntas{
+
+display: flex;
+flex-direction: column;
+margin-bottom: 10px ;
+
+
+}

@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+.carrinho-login{
+	justify-content: space-between;
+}
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #262628;
+}
+h1
+ {font-size: 50px;
+font-style: italic;
+text-align: left;
+color: black;
+}
+nav{
+
+display: flex;
+	
+}
+
+.header{
+	width: 1000px;
+	padding: 20px;
+	background: #7690da;
+	margin: 25px auto;
+	border-radius: 5px;
+	text-align: center;
+}
+.header p{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+.container .input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
+a {
+	color: white;
+}
+
+/* Inicio */
+
+header{
+	height: 6em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom:4px red;
+	border-style: solid;
+	font-family: 'Noto Sans KR', sans-serif;
+  }
+  .navInicioA{
+	text-decoration: none;
+	margin: 1em;
+  }
+  .navInicioA:hover{
+	color: red;
+	transition: 0.3s ease;
+  }
+  #logoInicio{
+	margin-left: 0px;
+  width: 150px;
+  align-items: left;
+ }
+   #carrinho{
+	   width: 40px;
+	  
+   }
+#bannerimg{
+margin-top: 7px;
+margin-bottom: 7px;
+width: 100%;
+height: 350px;
+}
+#linhadobanner{
+	border-bottom:4px red;
+	border-style: solid;
+}
+
+#login{
+	width: 40px;
+	   margin-right: 10px;
+	   margin-left: 20px;
+}
+
+
+
+/* Pesquisas Index*/
+#buscaPersonalizada{
+	font-family: 'Noto Sans KR', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+
+	
+}
+#pesquisasIndex{
+	text-decoration: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;	
+	margin-bottom: 60px;
+}
+
+	/*Pesquisa Por Marca*/
+	#pesquisaMarca{
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+		background-color:red;
+		border:solid 1px;
+		border-radius:10px;
+		width: 250px;
+		height: 35px;
+		margin-left: 10px;
+		margin-right: 10px;
+  	}
+  
+	  #txtBusca{
+	
+		float:left;
+		background-color:transparent;
+		padding-left:0.2em;
+		font-style:italic;
+		font-size:1em;
+		border:none;
+		height:2em;
+		width:14em;
+  	}
+	/* Pesquisa por Modelo */
+	#pesquisaModelo{
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+		background-color:red;
+		border:solid 1px;
+		border-radius:10px;
+		width: 250px;
+		height: 35px;
+		margin-left: 10px;
+		margin-right: 10px;
+  	}
+  
+ 	 
+
+	/*Pesquisa por Ano*/
+	#pesquisaAno{
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+		background-color:red;
+		border:solid 1px;
+		border-radius:10px;
+		width: 250px;
+		height: 35px;
+		margin-left: 10px;
+		margin-right: 10px;
+  	}
+  
+ 	 
+    /*Botao Exibir Produtos*/
+	  #exibirProdutos{
+		margin-left: 1em;
+		margin-right: 1em;
+  	}
+  
+ 	 #buttonExibirProdutos{
+		border-radius:10px;
+		height: 35px;
+		background-color: red;
+		border: none;
+  	}
+	#buttonExibirProdutos:hover{
+		transition: 0.3s ease;
+		height: 40px;
+		
+	}
+	#linkExibirProdutos{
+		font-style:italic;
+		font-size:1.1em;
+		color: #76766c;
+		border-radius: 10px;
+		
+	}
+	#linkExibirProdutos:hover{
+		color: white;
+		transition: 1s;
+	}
+	#buttonExibirProdutos:hover{
+		cursor: pointer;
+		transition: 1s;
+	}
+
+
+	footer{
+
+		color: white;
+		display: flex;
+		flex-direction: row;
+		width: 100vw;
+		justify-content: center;
+
+
+
+	}
+	#footersection{
+
+		
+		display: flex;
+		flex-direction: row;
+	
+
+
+	}
+	#divfooter{
+
+		display: flex;
+		flex-direction:column;
+
+	}
+	#artfooter1{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	margin-right: 3em;
+
+		
+	}
+	
+	#artfooter2{
+
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 2em;
+	
+
+	}
+	#artfooter3{
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+	}
+	
+	.footertitulo{
+
+		margin-top: 2em;
+		margin-bottom: 0.9em;
+		font-size: 1.2em;
+		font-family: 'Montserrat', sans-serif;
+		
+
+	}
+	.footertitulo2{
+
+		margin-top: 2em;
+		margin-bottom: 0.9em;
+		font-size: 1.2em;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		
+
+	}
+	.footertexto2{
+
+		
+		margin-bottom: 2em;
+		font-family: 'Montserrat', sans-serif;
+		
+
+	}
+	.footertexto{
+
+		margin-bottom: 0.5em;
+		font-family: 'Montserrat', sans-serif;
+
+	}
+	.footerimg{
+
+	width: 3em;
+
+	}
+	.footerimgelo{
+
+		width: 7em;
+	
+		}
+
+	/* teste banner*/ 
+
+	section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .img-mobile{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 27%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #ff0054;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #ff0054;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #ff0054;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+@media screen and (max-width: 900px) {
+    .img-desktop{
+        display: none;
+    }
+
+    .img-mobile{
+        display: block;
+    }
+
+    .nav-auto, .nav-manual{
+        margin-top: 60%;
+    }
+	#visa{
+
+		height: 2.7em;
+		width: 4em;
+
+	}
+	#boleto{
+
+		width: 4em;
+
+	}
+	#elo{
+
+		width: 3.3em;
+		height: 2em;
+
+	}
+	
+
+}
+@media screen and (max-width: 625px){
+
+	#visa{
+
+		height: 2.7em;
+		width: 4em;
+
+	}
+	#boleto{
+
+		width: 4em;
+
+	}
+	#elo{
+
+		width: 3.3em;
+		height: 2em;
+
+	}
+	.footertexto2{
+
+        font-size: 0.6em;
+        text-align: center;
+    
+       }
+	a{
+
+		font-size: 0.6em;
+
+	}
+	#carrinho{
+
+		width: 2em;
+		margin: 0;
+
+	}
+	#login{
+
+		width: 2em;
+		margin-left: 0.8em;
+
+	}
+	#logoInicio{
+
+		width: 8em;
+
+	}
+
+}

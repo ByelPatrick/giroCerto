@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Favicon-->
+<link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logoInicio" src="img/logo.png" alt="logo"></a>
+        <nav id="navInicio">
+            <a class="navInicioA" href="empresa.html">QUEM SOMOS</a>
+            <a class="navInicioA" href="produtos.html">PRODUTOS</a>
+            <a  class="navInicioA" href="areadecontato.html">CONTATO</a>
+            </nav>
+            
+            <div class="carrinho-login">
+                <a href="carrinho.html"><img id="carrinho" src="img/carrinho.png"></a>
+                <a href="login.html"><img id="login" src="img/perfil.png"></a>
+            </div>
+    </header>
+
+<main>
+    <!-- Produto Principal do carrinho-->
+    <section id="produto-principal">
+        <img src="img/kit-correia-dentada-citroen-c3-15-8v-todos_1_1200-removebg-preview 2.png" alt="Correia Dentada">
+        <!--Dados Produto Principal-->
+        <article>
+            <h1>Correia Dentada</h1>
+            <p>Pálio/weekend/idea<br>
+            siena/logan/clio<br>
+            corsa/onix</p>
+            <p>R$248,70</p>
+            <p>6x de R$70,69</p>
+            <!--Calcular/Exibir frete -->
+            <div>
+                <div>
+                    <label for="frete">Seu CEP
+                    <input type="number" name="frete" maxlength="8" minlength="8">
+                    </label>
+                    <button>OK</button>
+                </div>
+
+                <div>
+                    <label for="valor">Valor do frete
+                    <input type="number" name="valor">
+                    </label>
+                </div>      
+            </div>
+
+            <div>
+                <button id="finalizar">Finalizar</button>
+            </div>
+
+        </article>
+    </section>
+    <section id="outrasMarcas">
+        <button>RENAULT</button>
+        <button>FIAT</button>
+        <button>CHEVROLET</button>
+    </section>
+    
+    
+
+    <h1 id="outrasOpcoes">Outras opções:</h1>
+    <!--Linha 1-->
+    <section id="produtos-linha1">
+        <!--Produto 1-->
+        <article id="div-produto1">
+                <div id="div2-produtos1">
+                    <img id="img-produto1" src="img/kit-correia-dentada-citroen-c3-15-8v-todos_1_1200-removebg-preview 2.png" alt="kit correia dentada citroen c3 15 8v">
+                </div>
+
+                <h4 id="h4-produto1">Correia Dentada<br>
+                R$248,70</h4>
+                <p id="p-produto1">6x de R$70,69</p>
+            
+                <div id="div3-produto1">
+                </div>
+        </article>
+
+        <!--Produto 2-->
+        <article id="div-produto2">
+            <div id="div2-produtos2">
+                <img id="img-produto1" src="img/disco-plato-rolamento-embreagem-733-chana-picape-van-vt-c1-removebg-preview 1.png" alt="Kit embreagem">
+            </div>
+
+            <h4 id="h4-produto2">Kit Embreagem<br>
+            R$424,15</h4>
+            <p id="p-produto2">8x de R$53,01</p>
+            
+                <div id="div3-produto2">
+                </div>
+        </article>
+
+        <!--Produto 3-->
+        <article id="div-produto3">
+            <div id="div2-produtos3">
+                <img id="img-produto1" src="img/jogo_4_rodas_ramlow_r_99_fit_aro_15_furacao_4x100_acabamento_grafite_e_diamante_tala_6_586_1_20180820165752-removebg-preview 2.png" alt="Jogo 4 Rodas aro 15 Furação 4x100">
+            </div>
+
+
+            <h4 id="h4-produto3">Kit 4 Rodas<br>
+            R$2.490,00</h4>
+            <p id="p-produto3">12x de R$207,50</p>
+            
+                <div id="div3-produto3">
+                </div>
+            </article>
+        <!--Produto 4-->
+        <article id="div-produto4">
+            <div id="div2-produtos4">
+                <img id="img-produto1" src="img/coxim-amortecedor-com-rolamento-palio-siena.png" alt="Coxim amortecedor com rolamento palio e siena">
+            </div>
+
+                <h4 id="h4-produto4">Coxim Amortecedor<br>
+                R$160,98</h4>
+                <p id="p-produto4">3x de R$53,66</p>
+            
+                <div id="div3-produto4">
+                </div>
+        </article>
+    </section>
+</main>
+        <p id="linhadobanner"></p>
+        <footer>
+            <section id="footersection">
+                <article id="artfooter1">
+                   <div>
+                    <h2 class="footertitulo2 ">Contato</h2>
+                     <p class="footertexto">
+                        Telefone: (xx)xx-xxxxx-xxxx
+                     </p>
+                     <p class="footertexto">
+                        E-mail: ripeorigins@gmail.com
+                     </p>
+                    </div>
+                    <h2 class="footertitulo">Redes Sociais</h2>
+                    <div>
+                        <img class="footerimg" src="img/logo-whatsapp.png" alt="logo whatsapp">
+                        <img class="footerimg" src="img/logo-instagram.png" alt="logo instagram">
+                        <img class="footerimg" src="img/logo-facebook.png" alt="logo facebook">
+                    </div>
+                </article>
+        
+                <article id="artfooter2">
+                    <div>
+                    <h2 class="footertitulo2 ">
+                        Endereço
+                    </h2>
+                    <p class="footertexto2">
+                        Giro Certo Autopeças<br>
+                    </p>
+                    <p class="footertexto2">
+                        CNPJ n.º 00.000.000/0000-00<br>
+                    </p>
+                    <p class="footertexto2">
+                        Sede: Rua Avenida Paulista, 1234  - Bela<br> Vista, São Paulo - SP, 01310-100<br>
+                    </p>
+                </div>
+                </article>
+                
+                <article id="artfooter3">
+                    <h2 class="footertitulo">
+                        Formas de pagamento
+                    </h2>
+                    <div>
+                        <img id="pix" class="footerimg" src="img//logo-pix.png" alt="pix">
+                        <img id="mastercard" class="footerimg" src="img/logo-mastercard.png" alt="Mastercard">
+                        <img id="elo" class="footerimgelo" src="img/logo-elo.png" alt="elo">
+                    </div>
+                    <div>
+                        <img id="boleto" src="img/logo-boleto.png" alt="boleto logo">
+                        <img id="visa" src="img/logo-visa.png" alt="logo visa">
+                    </div>
+                </article>
+            </section>
+        </footer>
+</body>
+</html>

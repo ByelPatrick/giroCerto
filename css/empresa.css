@@ -1,0 +1,72 @@
+article{
+
+color: white;
+font-size: large;
+
+
+}
+#section1{
+
+display: flex;
+flex-direction: row;
+display: flex;
+justify-content: center;
+
+}
+#artlogo{
+
+background-color:black ;
+border: 0.5em solid;
+width: 16em;
+
+}
+#art2{
+
+background-color: rgb(211, 211, 211);
+color: black;   
+align-items: center;
+text-align: center;
+
+
+}
+p{
+
+width: 12em;
+margin: 2em;
+
+
+}
+h2{
+
+margin-top: 1em;
+
+}
+img{
+
+width: 
+100%;
+
+}
+#art3{
+/* display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+text-align: center; */
+width: 38em;
+
+}
+#section2{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+h3{
+
+    margin-bottom: 1em;
+
+}

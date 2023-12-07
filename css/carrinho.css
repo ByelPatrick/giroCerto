@@ -1,0 +1,160 @@
+   main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+   /* produto principal */
+   #produto-principal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #produto-principal img{
+        height: 200px;
+        border: red 2px solid;
+        
+    }
+    #produto-principal h1{
+        color: white;
+        font-size: 20px;
+        margin-left:15px ;
+    }
+    #produto-principal article p:nth-of-type(1){
+        font-size: 12px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    #produto-principal article p:nth-of-type(2){
+        font-size: 12px ;
+        color: white;
+        margin-top: 7px;
+        margin-left: 30px;
+        color: red;
+    }
+    #produto-principal article p:nth-of-type(3){
+        font-size: 10px;
+        color: white;
+        margin-top: 5px;
+        margin-left: 35px;
+        color: green;
+        
+    }
+
+
+    #produto-principal article div:nth-of-type(1){
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+
+    /* calcular frete */
+    #produto-principal article div:nth-of-type(1) div{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    #produto-principal article div:nth-of-type(1) div label{
+        font-size: 12px;
+        color: white;
+    }
+    #produto-principal article div:nth-of-type(1) div input{
+        display: block;
+        width: 80px;
+        height: 12px;
+        font-size: 11px;
+    }
+    #produto-principal article div:nth-of-type(1) div button{
+        margin-top: 12px;
+        background-color: red;
+        color: white;
+        font-size: 12px;
+        width: 30px;
+        height: 19px;
+    }
+    #produto-principal article div:nth-of-type(1) div button:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    /* Valor Frete */
+    #produto-principal article div:nth-of-type(1) div:nth-of-type(2){
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    #produto-principal article div:nth-of-type(1) div:nth-of-type(2) label{
+        font-size: 12px;
+        color: white;
+    }
+    #produto-principal article div:nth-of-type(1) div:nth-of-type(2) input{
+        display: block;
+        width: 80px;
+        height: 12px;
+        font-size: 11px;
+        margin-bottom: 4px;
+    }
+
+    #finalizar{
+        margin-left: 80px;
+        height: 40px;
+        width: 80px;
+        font-size: 15px;
+        border: none;
+        background-color: #DFBA00;
+        color: white;
+    }
+    #finalizar:hover{
+        cursor: pointer;
+        transform: scale(1.1) ;
+        transition: .4s ease;
+        
+    }
+    #produto-principal article div:nth-of-type(2) button{
+        margin-top: 20px;
+    }
+
+    #outrasMarcas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+       
+    }
+    #outrasMarcas button:nth-of-type(1){
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-right: 7px;
+    }
+    #outrasMarcas button{
+        height: 30px;
+        width: 100px;
+    }
+    #outrasMarcas button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: .4s ease;
+    }
+    #outrasMarcas button:nth-of-type(2){
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+    #outrasMarcas button:nth-of-type(3){
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-left: 7px;
+    }
+    main section:nth-of-type(2){
+        margin-bottom: 150px;
+    }
+    #outrasOpcoes{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 150px;
+    }

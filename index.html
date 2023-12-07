@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<!--Favicon-->
+<link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/produtos.css">
+<script src="js/https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Giro Certo - Autopeças</title>
+</head>
+<body>
+
+<!--        HEADER      -->
+    <header>
+        <a href="index.html"><img id="logoInicio" src="img/logo.png" alt="logo"></a>
+        <nav id="navInicio">
+            <a class="navInicioA" href="empresa.html">QUEM SOMOS</a>
+            <a class="navInicioA" href="produtos.html">PRODUTOS</a>
+            <a  class="navInicioA" href="areadecontato.html">CONTATO</a>
+            
+        </nav>
+        <div class="carrinho-login">
+            <a href="carrinho.html"><img id="carrinho" src="img/carrinho.png"></a>
+            <a href="login.html"><img id="login" src="img/Group 1.svg"></a>
+        </div>
+    </header>
+
+<!--        MAIN / Painel Carrosel        -->
+<main>
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="img/banner.png" alt="slide 1">
+                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="img/banner.png" alt="slide 3">
+                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="img/banner.png" alt="slide 3">
+                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
+
+        <!--Linha 2-->
+    <section id="produtos-linha2">
+        <!--Produto 5-->
+        <article id="div-produto5">
+                <div id="div2-produtos5">
+                    <img id="img-produto1" src="img/disco-de-freio-up-tsi-1.0-removebg-preview.png" alt="disco de freio up tsi 1.0">
+                </div>
+
+                <h4 id="h4-produto5">Disco de Freio<br>
+                R$864,67</h4>
+                <p id="p-produto5">12x de R$72,05</p>
+        
+                <div id="div3-produto5">
+                </div>
+            </article>
+
+        <!--Produto 6-->
+        <article id="div-produto6">
+            <div id="div2-produtos6">
+                <img id="img-produto6" src="img/bandeja-suspensao-hyundai-kia-sportage-removebg-preview.png" alt="bandeja suspensão hyunadai">
+            </div>
+
+            <h4 id="h4-produto6">Bandeja de suspensão<br>
+            R$393,45</h4>
+            <p id="p-produto6">7x de R$56,20</p>
+        
+                <div id="div3-produto6">
+                </div>
+        </article>
+
+        <!--Produto 7-->
+        <article id="div-produto7">
+            <div id="div2-produtos7">
+                <img id="img-produto7" src="img/amortecedor-dianteiro-hb20-removebg-preview.png" alt="amortecedor dianteiro hb20">
+            </div>
+
+
+            <h4 id="h4-produto7">Amortecedor dianteiro<br>
+            R$568,42</h4>
+            <p id="p-produto7">10x de R$56,84</p>
+        
+                <div id="div3-produto7">
+                </div>
+            </article>
+        <!--Produto 8-->
+        <article id="div-produto8">
+            <div id="div2-produtos8">
+                <img id="img-produto8" src="img/pastilha-freio-dianteira-uno-removebg-preview.png" alt="pastilha de freio dianteiro uno">
+            </div>
+
+                <h4 id="h4-produto8">Pastilha Freio<br>
+            R$122,57</h4>
+                <p id="p-produto8">2x de R$62,78</p>
+        
+                <div id="div3-produto8">
+                </div>
+        </article>
+    </section>
+
+<!--Pesquisas Index-->
+    <p id="buscaPersonalizada">BUSCA PERSONALIZADA</p>
+    <div id="pesquisasIndex">
+        <!--Pesquisa por Marca-->
+        <div id="pesquisaMarca">
+            <input type="text" id="txtBusca" placeholder="Buscar Marca..."/>
+           
+        </div>
+
+        <!--Pesquisa por Modelo-->
+        <div id="pesquisaModelo">
+            <input type="text" id="txtBusca" placeholder="Buscar Modelo..."/>
+            
+        </div>
+
+        <!--Pesquisa por Ano-->
+        <div id="pesquisaAno">
+            <input type="text" id="txtBusca" placeholder="Buscar Ano..."/>
+            
+        </div>
+
+        <div id="exibirProdutos">
+            <button id="buttonExibirProdutos"><a id="linkExibirProdutos"href="#">Exibir Produtos</a></button>
+        </div>
+    </div>
+
+    <p id="linhadobanner"></p>
+
+</main>
+
+<footer>
+    <section id="footersection">
+        <article id="artfooter1">
+           <div>
+            <h2 class="footertitulo2 ">Contato</h2>
+             <p class="footertexto">
+                Telefone: (xx)xx-xxxxx-xxxx
+             </p>
+             <p class="footertexto">
+                E-mail: ripeorigins@gmail.com
+             </p>
+            </div>
+            <h2 class="footertitulo">Redes Sociais</h2>
+            <div>
+                <img class="footerimg" src="img/logo-whatsapp.png" alt="logo whatsapp">
+                <img class="footerimg" src="img/logo-instagram.png" alt="logo instagram">
+                <img class="footerimg" src="img/logo-facebook.png" alt="logo facebook">
+            </div>
+        </article>
+
+        <article id="artfooter2">
+            <div>
+            <h2 class="footertitulo2 ">
+                Endereço
+            </h2>
+            <p class="footertexto2">
+                Giro Certo Autopeças<br>
+            </p>
+            <p class="footertexto2">
+                CNPJ n.º 00.000.000/0000-00<br>
+            </p>
+            <p class="footertexto2">
+                Sede: Rua Avenida Paulista, 1234  - Bela<br> Vista, São Paulo - SP, 01310-100<br>
+            </p>
+        </div>
+        </article>
+        
+        <article id="artfooter3">
+            <h2 class="footertitulo">
+                Formas de pagamento
+            </h2>
+            <div>
+                <img id="pix" class="footerimg" src="img//logo-pix.png" alt="pix">
+                <img id="mastercard" class="footerimg" src="img/logo-mastercard.png" alt="Mastercard">
+                <img id="elo" class="footerimgelo" src="img/logo-elo.png" alt="elo">
+            </div>
+            <div>
+                <img id="boleto" src="img/logo-boleto.png" alt="boleto logo">
+                <img id="visa" src="img/logo-visa.png" alt="logo visa">
+            </div>
+        </article>
+    </section>
+</footer>
+</body>
+
+</html>

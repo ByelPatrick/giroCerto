@@ -1,0 +1,356 @@
+#linha-prod-prof{
+    color: red ;
+    width: 55em;
+}
+
+section:nth-of-type(1) div:nth-of-type(1){
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5vh;
+}
+section:nth-of-type(1) div:nth-of-type(1) img{
+    width: 200px;
+    margin: 20px;
+}
+section:nth-of-type(1) div:nth-of-type(1) h2{
+    color: red;
+}
+
+section:nth-of-type(1) div:nth-of-type(1) p{
+    font-size: 12px;
+    margin: 3px;
+    color: white;
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+section:nth-of-type(2) button{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+section:nth-of-type(2) button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+section:nth-of-type(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-of-type(3) article:nth-of-type(1) img{
+    width: 60px;
+}
+section:nth-of-type(3) article:nth-of-type(1) p{
+    font-size: 10px;
+    color: red;
+}
+
+section:nth-of-type(3) article:nth-of-type(2){
+    margin: 20px;
+}
+section:nth-of-type(3) article:nth-of-type(2) p{
+    margin-top:40px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+section:nth-of-type(3) article:nth-of-type(2) h2{
+    text-align: center;
+    color: white;
+}
+
+section:nth-of-type(3) article:nth-of-type(3){
+    margin: 20px;
+}
+section:nth-of-type(3) article:nth-of-type(3) p{
+    margin-top:40px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+section:nth-of-type(3) article:nth-of-type(3) h2{
+    text-align: center;
+    color: white;
+}
+
+section:nth-of-type(3) article:nth-of-type(4){
+    margin: 20px;
+}
+section:nth-of-type(3) article:nth-of-type(4) p{
+    margin-top:40px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+section:nth-of-type(3) article:nth-of-type(4) h2{
+    text-align: center;
+    color: white;
+}
+
+section:nth-of-type(3) article:nth-of-type(5){
+    margin: 20px;
+}
+section:nth-of-type(3) article:nth-of-type(5) p{
+    margin-top:40px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+section:nth-of-type(3) article:nth-of-type(5) h2{
+    text-align: center;
+    color: white;
+}
+
+section:nth-of-type(3) article:nth-of-type(6){
+    margin: 20px;
+}
+section:nth-of-type(3) article:nth-of-type(6) p{
+    margin-top:20px;
+    text-align: center;
+    border: 10px solid red;
+    border-radius: 100px;
+    background-color: red;
+    font-size: 15px;
+    color: white;
+}
+section:nth-of-type(3) article:nth-of-type(6) h2{
+    text-align: center;
+    color: white;
+}
+
+
+section:nth-of-type(2) div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    section:nth-of-type(2) div:nth-of-type(2) img{
+        width: 200px;
+        margin: 20px;
+    }
+    section:nth-of-type(2) div:nth-of-type(2) h2{
+        color: red;
+    }
+    
+    section:nth-of-type(2) div:nth-of-type(2) p{
+        font-size: 12px;
+        margin: 3px;
+    }
+    
+    section:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+    }
+    section:nth-of-type(3) button{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        width: 15vh;
+        height: 5vh;
+        background-color: red;
+        border: none;
+        border-radius: 4px;
+        
+    }
+    section:nth-of-type(3) button:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    section:nth-of-type(4){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section:nth-of-type(4) article:nth-of-type(1) img{
+        width: 60px;
+    }
+    section:nth-of-type(4) article:nth-of-type(1) p{
+        font-size: 10px;
+        color: red;
+    }
+    
+    section:nth-of-type(4) article:nth-of-type(2){
+        margin: 20px;
+    }
+    section:nth-of-type(4) article:nth-of-type(2) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(4) article:nth-of-type(2) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(4) article:nth-of-type(3){
+        margin: 20px;
+    }
+    section:nth-of-type(4) article:nth-of-type(3) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(4) article:nth-of-type(3) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(4) article:nth-of-type(4){
+        margin: 20px;
+    }
+    section:nth-of-type(4) article:nth-of-type(4) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(4) article:nth-of-type(4) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(4) article:nth-of-type(5){
+        margin: 20px;
+    }
+    section:nth-of-type(4) article:nth-of-type(5) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(4) article:nth-of-type(5) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(4) article:nth-of-type(6){
+        margin: 20px;
+    }
+    section:nth-of-type(4) article:nth-of-type(6) p{
+        margin-top:20px;
+        text-align: center;
+        border: 10px solid red;
+        border-radius: 100px;
+        background-color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(4) article:nth-of-type(6) h2{
+        text-align: center;
+        color: white;
+    }
+
+
+    section:nth-of-type(5){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section:nth-of-type(5) article:nth-of-type(1) img{
+        width: 60px;
+    }
+    section:nth-of-type(5) article:nth-of-type(1) p{
+        font-size: 10px;
+        color: red;
+    }
+    
+    section:nth-of-type(5) article:nth-of-type(2){
+        margin: 20px;
+    }
+    section:nth-of-type(5) article:nth-of-type(2) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(5) article:nth-of-type(2) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(5) article:nth-of-type(3){
+        margin: 20px;
+    }
+    section:nth-of-type(5) article:nth-of-type(3) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(5) article:nth-of-type(3) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(5) article:nth-of-type(4){
+        margin: 20px;
+    }
+    section:nth-of-type(5) article:nth-of-type(4) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(5) article:nth-of-type(4) h2{
+        text-align: center;
+        color: white;
+    }
+    
+    section:nth-of-type(5) article:nth-of-type(5){
+        margin: 20px;
+    }
+    section:nth-of-type(5) article:nth-of-type(5) p{
+        margin-top:40px;
+        text-align: center;
+        color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(5) article:nth-of-type(5) h2{
+        text-align: center;
+        color: white;    }
+    
+    section:nth-of-type(5) article:nth-of-type(6){
+        margin: 20px;
+    }
+    section:nth-of-type(5) article:nth-of-type(6) p{
+        margin-top:20px;
+        text-align: center;
+        border: 10px solid red;
+        border-radius: 100px;
+        background-color: red;
+        font-size: 15px;
+    }
+    section:nth-of-type(5) article:nth-of-type(6) h2{
+        text-align: center;
+        color: white;
+    }
+    #div-suporte{
+        display: flex;
+        justify-content: center;
+        margin-top: 8vh;
+        margin-bottom: 5vh;
+    }
+    #suporte{
+        width: 15vh;
+        height: 5vh;
+        background-color: red;
+        border: none;
+        border-radius: 4px;
+        color: white;
+    }
+    #suporte:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
